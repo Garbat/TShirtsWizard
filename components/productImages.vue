@@ -2,7 +2,7 @@
     <div>
         <h3>{{product.title}}</h3>
         <div class="cards">
-            <el-card v-for="img in product.images" @key="img" v-loading="loading">
+            <el-card v-for="img in product.images" v-bind:key="img" v-loading="loading">
             <div class="img">
                 <img :src="getImages(img)" alt="">
             </div>
