@@ -4,78 +4,98 @@ export const state = () => ({
       'child_tshirt': {
         title: 'Детская футболка',
         images: [
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_14_child_tshirt_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_14_child_tshirt_back_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_15_child_tshirt_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_15_child_tshirt_back_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_16_child_tshirt_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_16_child_tshirt_back_white_SIZE.jpg'
+          'people_14_child_tshirt_front',
+          'people_14_child_tshirt_back',
+          'people_15_child_tshirt_front',
+          'people_15_child_tshirt_back',
+          'people_16_child_tshirt_front',
+          'people_16_child_tshirt_back'
         ]
       },
       'manshortfull': {
         title: 'Мужская футболка',
         images: [
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_4_manshortfull_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_13_manshortfull_back_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_16_manshortfull_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_16_manshortfull_back_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_17_manshortfull_front_white_SIZE.jpg',
+          'people_4_manshortfull_front',
+          'people_13_manshortfull_back',
+          'people_16_manshortfull_front',
+          'people_16_manshortfull_back',
+          'people_17_manshortfull_front',
         ]
       },
       'womanshortfull': {
         title: 'Женская футболка',
         images: [
-          'https://storage.vsemayki.ru/images/0/1/0/ARTICLE/previews/people_11_womanshortfull_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/1/0/ARTICLE/previews/people_16_womanshortfull_back_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/1/0/ARTICLE/previews/people_17_womanshortfull_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/1/0/ARTICLE/previews/people_17_womanshortfull_back_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/1/0/ARTICLE/previews/people_18_womanshortfull_front_white_SIZE.jpg',
+          'people_11_womanshortfull_front',
+          'people_16_womanshortfull_back',
+          'people_17_womanshortfull_front',
+          'people_17_womanshortfull_back',
+          'people_18_womanshortfull_front',
         ]
       },
       'mens_rashgards': {
         title: 'Мужской рашгард',
         images: [
-          'https://storage.vsemayki.ru/images/0/1/0/ARTICLE/previews/people_11_mens_rashgards_fullprint_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/1/0/ARTICLE/previews/people_14_mens_rashgards_fullprint_back_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/1/0/ARTICLE/previews/people_13_mens_rashgards_fullprint_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/1/0/ARTICLE/previews/people_13_mens_rashgards_fullprint_back_white_SIZE.jpg'
+          'people_11_mens_rashgards_fullprint_front',
+          'people_14_mens_rashgards_fullprint_back',
+          'people_13_mens_rashgards_fullprint_front',
+          'people_13_mens_rashgards_fullprint_back'
         ]
       },
       'womanhoodiefull': {
         title: 'Женская толстовка',
         images: [
-          'https://storage.vsemayki.ru/images/0/2/0/ARTICLE/previews/people_1_womanhoodiefull_front_black_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/2/0/ARTICLE/previews/people_4_womanhoodiefull_back_black_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/2/0/ARTICLE/previews/people_2_womanhoodiefull_front_black_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/2/0/ARTICLE/previews/people_5_womanhoodiefull_back_black_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/2/0/ARTICLE/previews/people_3_womanhoodiefull_front_black_SIZE.jpg'
+          'people_1_womanhoodiefull_front',
+          'people_4_womanhoodiefull_back',
+          'people_2_womanhoodiefull_front',
+          'people_5_womanhoodiefull_back',
+          'people_3_womanhoodiefull_front'
         ]
       }
     },
-    no_overptint: {
+    no_overprint: {
       child: {
         title: 'Детская футболка',
         images: [
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_1_child_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_1_child_back_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_2_child_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_2_child_back_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_3_child_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_3_child_back_white_SIZE.jpg'
+          'people_1_child_front',
+          'people_1_child_back',
+          'people_2_child_front',
+          'people_2_child_back',
+          'people_3_child_front',
+          'people_3_child_back'
         ]
       },
       womanshort: {
         title: 'Женская футболка',
         images: [
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_1_womanshort_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_1_womanshort_back_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_2_womanshort_front_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_2_womanshort_back_white_SIZE.jpg',
-          'https://storage.vsemayki.ru/images/0/3/0/ARTICLE/previews/people_3_womanshort_front_white_SIZE.jpg',
+          'people_1_womanshort_front',
+          'people_1_womanshort_back',
+          'people_2_womanshort_front',
+          'people_2_womanshort_back',
+          'people_3_womanshort_front',
+        ]
+      },
+      manshort: {
+        title: 'Мужская футболка',
+        images: [
+          'people_7_manshort_front',
+          'people_4_manshort_back',
+          'people_5_manshort_front',
+          'people_5_manshort_back',
+          'people_6_manshort_front',
+        ]
+      },
+      man_hoodie_oversize: {
+        title: 'Мужское худи',
+        images: [
+          'people_7_man_hoodie_oversize_front',
+          'people_7_man_hoodie_oversize_back',
+          'people_8_man_hoodie_oversize_front',
+          'people_12_man_hoodie_oversize_front',
+          'people_8_man_hoodie_oversize_back',
+          'people_9_man_hoodie_oversize_front',
         ]
       }
     }
-
   },
   main_article: 2978903
 });
@@ -85,6 +105,6 @@ export const getters = {
     return state.products.overprint
   },
   getNoOverprint(state) {
-    return state.products.no_overptint
+    return state.products.no_overprint
   }
 }

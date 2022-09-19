@@ -35,7 +35,6 @@
                         v-if="showProduct(id)"
           ></ProductImage>
         </div>
-
       </div>
     </div>
     <div class="list">
@@ -84,10 +83,16 @@ export default {
     ProductImage,
     DonateComponent
   },
+  computed: {
+    overprintDesignes() {
+      //TODO: переделать v-if на computed
+    },
+    portraitDesignes() {
+      //TODO: переделать v-if на computed
+    }
+  },
   created() {
     this.init()
-
-
   },
   methods: {
     init() {
@@ -116,7 +121,6 @@ export default {
       if (process.client && !!localStorage.getItem('design_type')) {
         this.design_type = localStorage.getItem('design_type')
       }
-
     },
     showProduct(id) {
       return !!this.list[this.design_type].find(el => el === id);
@@ -165,5 +169,4 @@ export default {
   width: 200px;
   background: white;
 }
-
 </style>
