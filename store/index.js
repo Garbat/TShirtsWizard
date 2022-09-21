@@ -1,8 +1,8 @@
 export const state = () => ({
   products: {
     overprint: {
-      'child_tshirt': {
-        title: 'Детская футболка',
+      'child_tshirt_full': {
+        title: 'Детская футболка 3D',
         images: [
           'people_14_child_tshirt_front',
           'people_14_child_tshirt_back',
@@ -12,8 +12,8 @@ export const state = () => ({
           'people_16_child_tshirt_back'
         ]
       },
-      'manshortfull': {
-        title: 'Мужская футболка',
+      'manshort_full': {
+        title: 'Мужская футболка 3D',
         images: [
           'people_4_manshortfull_front',
           'people_13_manshortfull_back',
@@ -22,8 +22,8 @@ export const state = () => ({
           'people_17_manshortfull_front',
         ]
       },
-      'womanshortfull': {
-        title: 'Женская футболка',
+      'womanshort_full': {
+        title: 'Женская футболка 3D',
         images: [
           'people_11_womanshortfull_front',
           'people_16_womanshortfull_back',
@@ -32,8 +32,8 @@ export const state = () => ({
           'people_18_womanshortfull_front',
         ]
       },
-      'mens_rashgards': {
-        title: 'Мужской рашгард',
+      'mens_rashgards_full': {
+        title: 'Мужской рашгард 3D',
         images: [
           'people_11_mens_rashgards_fullprint_front',
           'people_14_mens_rashgards_fullprint_back',
@@ -41,8 +41,17 @@ export const state = () => ({
           'people_13_mens_rashgards_fullprint_back'
         ]
       },
-      'womanhoodiefull': {
-        title: 'Женская толстовка',
+      'woman_rashgards_full': {
+        title: 'Женский рашгард 3D',
+        images: [
+          'people_10_womens_rashgards_fullprint_front',
+          'people_11_womens_rashgards_fullprint_back',
+          'people_22_womens_rashgards_fullprint_front',
+          'people_12_womens_rashgards_fullprint_back'
+        ]
+      },
+      'womanhoodie_full': {
+        title: 'Женская толстовка 3D',
         images: [
           'people_1_womanhoodiefull_front',
           'people_4_womanhoodiefull_back',
@@ -50,7 +59,47 @@ export const state = () => ({
           'people_5_womanhoodiefull_back',
           'people_3_womanhoodiefull_front'
         ]
-      }
+      },
+      'manhoodie_full': {
+        title: 'Мужская толстовка 3D',
+        images: [
+          'people_2_manhoodiefull_front',
+          'people_15_manhoodiefull_back',
+          'people_3_manhoodiefull_front',
+          'people_13_manhoodiefull_back',
+          'people_6_manhoodiefull_front'
+        ]
+      },
+      'childrens_suits_with_hoodie_full': {
+        title: 'Детский костюм 3D (c толстовкой)',
+        images: [
+          'people_1_childrens_suits_with_hoodie_fullprint_front',
+          'people_1_childrens_suits_with_hoodie_fullprint_back',
+          'people_5_childrens_suits_with_hoodie_fullprint_front',
+          'people_5_childrens_suits_with_hoodie_fullprint_back',
+          'people_4_childrens_suits_with_hoodie_fullprint_front',
+          'people_4_childrens_suits_with_hoodie_fullprint_back',
+        ]
+      },
+      'mens_suits_with_hoodie_full': {
+        title: 'Мужской костюм 3D (c толстовкой)',
+        images: [
+          'people_1_mens_suits_with_hoodie_fullprint_front',
+          'people_1_mens_suits_with_hoodie_fullprint_back',
+          'people_2_mens_suits_with_hoodie_fullprint_front',
+          'people_2_mens_suits_with_hoodie_fullprint_back',
+        ]
+      },
+      'woman_suit_with_hoodie_full': {
+        title: 'Женский костюм 3D (c толстовкой)',
+        images: [
+          'people_1_woman_suit_with_hoodiefull_front',
+          'people_1_woman_suit_with_hoodiefull_back',
+          'people_2_woman_suit_with_hoodiefull_front',
+          'people_2_woman_suit_with_hoodiefull_back',
+          'people_3_woman_suit_with_hoodiefull_front',
+        ]
+      },
     },
     no_overprint: {
       child: {

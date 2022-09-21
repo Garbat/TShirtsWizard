@@ -168,5 +168,8 @@ export default {
   height: 100vh;
   width: 200px;
   background: white;
+  span{
+    max-width: 100%;
+  }
 }
 </style>
